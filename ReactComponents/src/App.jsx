@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import React from "react";
 import Navbar from "../src/Components/NavbarComponent.jsx";
+import Footer from "../src/Components/FooterComponent.jsx";
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <Navbar/>
+     <Footer/>
     </>
   )
 }
